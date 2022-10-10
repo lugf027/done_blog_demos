@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: grpc_service_greeter
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
+
+grpc:
+  server:
+    port: 9081
